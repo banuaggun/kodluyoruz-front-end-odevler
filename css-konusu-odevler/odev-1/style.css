@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.4px;
+    color:#774936;
+}
+header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 2px 2px #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+nav ul {
+    display: inline-flex;
+    margin-right: 30px !important;
+    list-style-type: none !important;
+}
+ul li {
+    margin-right: 40px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color:#774936;
+    font-weight: 500;
+}
+
+section {
+    width: calc(100% - 120px);
+    height: auto;
+    margin: 20px auto;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section p {
+    text-indent: 30px;
+    line-height: 24px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 4px 0px 2px #dcdcdc;
+}
+
+table {
+    display: flex;
+    width: calc(100% - 80px) !important;
+    margin: 10px auto;
+    height: auto;
+}
+table tr {
+    margin: 20px auto;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table tr td .image__container {
+    border-radius: 50%;
+    border: 1px solid #e1bb80 !important;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table tr td p {
+    line-height: 28px;
+    font-size: 14px;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    font-weight: 400;
+    text-indent: 10px;
+}
+
+table tr td span.first__letter {
+    font-family: "Diplomata SC", cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #e1bb80;
+}
